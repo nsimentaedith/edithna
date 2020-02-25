@@ -4,4 +4,6 @@
 
     <item android:title="mysong" android:id="@+id/song" />
     <item android:title="mystyle" android:id="@+id/style"/>
+    <item android:title="list View" android:id="@+id/list1"/>
+    <item android:title="access c file" android:id="@+id/cfile"/>
 </menu>

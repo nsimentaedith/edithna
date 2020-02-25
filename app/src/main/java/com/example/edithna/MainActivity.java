@@ -1,5 +1,7 @@
 package com.example.edithna;
 
+
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -40,10 +42,14 @@ public class MainActivity extends AppCompatActivity {
             case R.id.song:
                 startActivity(new Intent(this, life1.class));
                 return true;
-                
+
 
             case R.id.style:
                 startActivity(new Intent(this, life2.class));
+                return true;
+
+            case R.id.list1:
+                startActivity(new Intent(this, listview.class));
                 return true;
             default:
 
